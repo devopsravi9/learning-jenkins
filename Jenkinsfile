@@ -29,7 +29,7 @@ pipeline {
         }
         stage('P3') {
           steps {
-            echo 's5'
+            echo 's55'
           }
         }
       }
