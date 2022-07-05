@@ -19,23 +19,25 @@ pipeline {
       parallel {
         stage('P1') {
           steps {
-            sh 'sleep 120'
+            echo 's3'
           }
         }
         stage('P2') {
           steps {
-            sh 'sleep 120'
+            echo 's4'
           }
         }
         stage('P3') {
           steps {
-            sh 'sleep 120'
+            echo 's5'
           }
         }
       }
     }
   }
 }
+
+
 
 
 
