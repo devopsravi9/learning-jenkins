@@ -2,8 +2,8 @@
 
 @Library('roboshop-jenkins-shared-library') _
 
-
-log ()
+env.DirectVar= shop
+log ("cart")
 
 
 
