@@ -41,9 +41,9 @@
 
 @Library('roboshop-jenkins-shared-library')
 
-log.warning 'nothing to do'
-log.info 'starting'
 
+log.info 'starting'
+log.warning 'nothing to do'
 
 
 
